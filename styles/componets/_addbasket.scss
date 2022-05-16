@@ -1,12 +1,15 @@
 @import '../abstract/variaveis';
 
 
+
+//header da pagina 
 #header-basket{
     background: $cor-base;
     height: 136px;
     width: 100%;
     display: inline-flex;
 
+    //imagem e botao voltar
     #header-img{
         width: 50%;
         display: flex;
@@ -27,27 +30,10 @@
             }
         }
     }
-
-    #header-text{
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 30%;
-
-        h1{
-            text-align: center;
-            font-family: $fonte;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 32px;
-            color: $cor-texto;
-        }
-    }
 }
 
 
+//imagem do produto
 
 #imgtumb{
     background: $cor-base;
@@ -59,7 +45,7 @@
     }
 }
 
-
+//nome do produto
 #text-h1{
     margin: 5%;
     h1{
@@ -77,11 +63,15 @@
 }
 
 
+//div botao add e remover e preço do produto
 #numb{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 10%;
+
+
+    //botao add e remover
     #add-remove{
         display: contents;
         h1{
@@ -98,6 +88,7 @@
     }
 
 
+    //preço do produto
     #price-prod{
         h1{
             font-family: $fonte;
@@ -113,6 +104,7 @@
     }
 }
 
+//conteudo do produto titulo
 #contains{
     margin: 7%;
     h1{
@@ -129,6 +121,7 @@
 }
 
 
+//conteudo do produto
 #prod-cotains{
     margin: 3%;
     h3{
@@ -142,7 +135,7 @@
     }
 }
 
-
+//descricao da salada
 #desc-salad{
     margin-top: 4%;
     margin-left: 8%;
@@ -158,6 +151,8 @@
 }
 
 
+
+//imagem e botao adiconar ao carrinho
 #addtobasket{
     display: flex;
     justify-content: space-between;
@@ -165,10 +160,12 @@
     margin-top: 15%;
     width: 100%;
 
+    //imagem favoritar
     #favorite{
         margin-left: 10%;
     }
 
+    //botao adicionar carrinho
 
     #buttonbasket{
         margin-right: 10%;

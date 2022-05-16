@@ -1,4 +1,4 @@
-
+//campo para endereço
 
 #input-adress{
     display: -webkit-box;
@@ -11,6 +11,7 @@
     -ms-flex-align: center;
     margin: 5%;
 
+//texto do campo
     h1{
         font-family: $fonte;
         font-size: 20px;
@@ -20,6 +21,7 @@
         color: #27214D;
     }
 
+    //campo
     input{
         width: 90%;
         margin-top: 4%;
@@ -36,12 +38,13 @@
 }
 
 
-
+//campo para numero
 #input-number{
 
     display: block;
     margin: 5%;
 
+    //texto do campo
     h1{
         font-family: $fonte;
         font-size: 20px;
@@ -51,7 +54,7 @@
         color: #27214D;
     }
 
-
+     //campo
     input{
         width: 90%;
         margin-top: 4%;
@@ -66,17 +69,21 @@
 }
 
 
+//botao de pagamento
+
 #input-twobutton{
 
     display: flex;
     width: 100%;
     justify-content: space-around;
 
+    //ancora
     a{
         text-decoration: none;
-        #teste{
+        //divisao botao
+        #paydelivery{
             width: 80%;
-            color: #FFA451;
+            color: $cor-base;
             margin: 5%;
             background: #FCF6F0;
             border-style: none;
@@ -84,20 +91,25 @@
             padding: 15px 15px 15px 15px;
             display: grid;
             justify-items: center;
+
+            //botao
             input{
                 border-style: none;
                 background: #FCF6F0;
-                color: #FFA451;
+                color: $cor-base;
                 text-align: center;
             }
         }
     }
 
+//ancora
     a{
         text-decoration: none;
-        #teste1{
+
+        //divisao botao
+        #paycard{
             width: 80%;
-            color: #FFA451;
+            color: $cor-base;
             margin: 5%;
             background: #FCF6F0;
             border-style: none;
@@ -105,16 +117,17 @@
             padding: 15px 15px 15px 15px;
             display: grid;
             justify-items: center;
+            //botao
             input{
                 border-style: none;
                 background: #FCF6F0;
-                color: #FFA451;
+                color: $cor-base;
             }
         }
     }
 }
 
-
+//botao para completar ordem
 #button-complete{
     justify-content: center;
     align-items: center;
@@ -133,6 +146,7 @@
     }
 }
 
+//botao para fechar tela
 #closebutton{
     background-color: #8080805c;
     opacity: 0.4;

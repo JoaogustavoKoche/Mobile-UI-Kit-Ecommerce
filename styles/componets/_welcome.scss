@@ -1,10 +1,10 @@
 @import '../abstract/variaveis';
-
+//cor de fundo
 body{
     background: $cor-background;
 }
 
-
+//imagem inicial fruta
 .imgs{
     background: $cor-base;
     display: displinline-block;
@@ -12,7 +12,7 @@ body{
     width: 100%;
     text-align: center;
     
-
+//imagem fruta
     #img_fruit{
         height: 55%;
         width: 55%;
@@ -20,6 +20,7 @@ body{
         padding: 110px 0px 1px 1px;
     }
 
+    //sombra da fruta
     #shadow{
         width: 50%;
         height: 12px;
@@ -27,16 +28,10 @@ body{
     }  
 }
 
-#fruta{
-    display: block;
-    height: 469px;
-    width: 100%;
-    text-align: right;
-}
-
+//titulo inicial
 
 h3{   
-    font-family: 'TT Norms Pr';
+    font-family: $fonte;
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
@@ -47,10 +42,11 @@ h3{
     color: #27214D;
 }
 
+//texto complementar
 p{
     margin-top: 5%;
     margin-left: 5%;
-    font-family: 'TT Norms Pro';
+    font-family: $fonte;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -58,7 +54,7 @@ p{
     color: #5D577E;
 }
 
-
+//botao
 #button{
     width: 90%;
     margin: 5%;
@@ -73,9 +69,9 @@ p{
 }
 
 
-
+//titulo "qual é seu nome"
 #text{
-    font-family: 'TT Norms Pr';
+    font-family: $fonte;
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
@@ -88,6 +84,7 @@ p{
 }
 
 
+//campo para inserir o nome
 div input#inputs{
     background-color: $cor-base;
     border-radius: 20px;
