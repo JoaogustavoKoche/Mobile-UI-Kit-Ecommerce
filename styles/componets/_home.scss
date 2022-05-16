@@ -1,0 +1,204 @@
+@import '../abstract/variaveis';
+
+
+
+#first{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+
+    #menu-home{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    a{
+        text-decoration: none;
+        button{
+            border-style: none;
+            border-radius: 40px;
+            padding: 10px 10px;
+            background: none;
+            h1{
+                font-family: $fonte;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 15px;
+                color: #27214D;
+            }
+        }
+    }
+}
+
+
+#hello-text{
+    margin: 5%;
+    width: 70%;
+    margin-left: 10%;
+
+    #hello-message{
+        font-family: $fonte;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 29px;
+        letter-spacing: -0.01em;
+        color: #27214D;
+        #bold{
+            font-weight: bold;
+        }
+    }
+}
+
+#search-filter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    #search{
+        width: 75%;
+        background-color: white;
+        color: lightgray;
+        border: solid 1px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+        margin-left: 5%;
+        img{
+            vertical-align: middle;
+        }
+        #input-search{
+            width: 70%;
+            background-color: white;
+            border: none;
+            padding: 10px;
+            margin: 5px;
+            font-size: 14px;
+        }
+    }
+
+    #filter-button{
+        border-radius: 10px;
+        border-style: none;
+        padding: 15px 10px;
+        background: #F7F7FC;
+    }
+}
+
+
+
+#textcombo{
+    font-family: $fonte;
+    font-style: normal;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #27214D;
+}
+
+
+#combo{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 10%;
+    #combo1{
+        background: #FFFFFF;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: 9px 7px 5px #323232a1;
+        width: auto;
+        height: auto;
+        a{
+            text-decoration: none;
+            padding: 10px;
+            width: 100%; 
+
+            #imgfav{
+                display: flex;
+                justify-content: space-evenly;
+                #imgs{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            
+            h1{
+                font-family: $fonte;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 23px;
+                display: flex;
+                align-items: flex-end;
+                letter-spacing: -0.01em;
+                color: #27214D;
+            }
+        }
+    }
+        #comboimg{
+            justify-content: space-around;
+            display: flex;
+
+
+            h2{
+                font-family: $fonte;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                display: flex;
+                align-items: flex-end;
+                letter-spacing: -0.01em;
+                color: #F08626;
+            }
+        }
+}
+
+#tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    #intab{
+        font-family: $fonte;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 34px;
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: -0.01em;
+
+        color: #27214D;
+
+
+        span{
+            text-decoration: underline #FFA451;
+            text-underline-offset: 7px;
+        }
+    }
+
+    #offtab{
+        font-family: $fonte;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #938DB5;
+    }
+}

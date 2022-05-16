@@ -1,0 +1,73 @@
+@import '../abstract/variaveis';
+
+body{
+    background: $cor-background;
+}
+
+#tokenapprov{
+
+    display: displinline-block;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+
+
+    #img-aprovado{
+        height: 55%;
+        width: 55%;
+        object-fit: contain;
+        padding: 110px 0px 1px 1px;
+    }
+}
+
+
+    #texttaken{
+        font-family: 'TT Norms Pr';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        margin-top: 5%;
+        color: #27214D;
+    }
+
+
+    #textorder{
+        margin-top: 5%;
+        font-family: 'TT Norms Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #5D577E;
+        text-align: center;
+    }
+
+#button-shopping{
+    width: 90%;
+    margin: 5%;
+    margin-top: 15%;
+    background-color: #FCF6F0;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 0px 15px 0px;
+    color: $cor-base;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#button-track{
+    width: 90%;
+    margin: 5%;
+    margin-top: 15%;
+    background-color: $cor-base;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 0px 15px 0px;
+    color: $cor-texto;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+

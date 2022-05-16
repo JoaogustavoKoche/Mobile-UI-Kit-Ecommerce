@@ -1,0 +1,301 @@
+@import '../abstract/variaveis';
+
+header{
+    background: $cor-base;
+    height: 136px;
+    width: 100%;
+    display: inline-flex;
+
+    #header-img{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            text-align: center;
+            font-family: $fonte;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 32px;
+            color: #000000;
+            border: none;
+            border-radius: 15px; 
+            img{
+                width: 8%;
+            }
+        }
+    }
+
+    #header-text{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30%;
+
+        h1{
+            text-align: center;
+            font-family: $fonte;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 32px;
+            color: $cor-texto;
+        }
+    }
+}
+
+
+main{
+
+    #orderprocessed{
+        margin: 5%;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+
+        #divh1{
+            width: 60%;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                font-family: $fonte;
+                font-style: normal;
+                color: #000000;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 12px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 23px;
+            }
+
+            h2{
+                font-family: $fonte;
+                color: #333333;
+                margin-left: 10%;
+                margin-right: 10%;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+        #divimg1{
+            width: 20%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+            img{
+                width: 80px;
+                height: 80px;
+            }
+
+            
+        }
+
+        #divimg2{
+            width: 20%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+            img{
+                width: 30px;
+                height: 30px;   
+            }
+        }
+
+        #divimg3{
+            width: 20%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+            img{
+                width: 40px;
+                height: 8px;  
+            }
+        }
+    }
+
+    #dot{
+        width: 0px;
+            height: 30px;
+        border: 1px dashed #FFA451;
+        margin-left: 14%;
+    }
+
+    #map{
+        width: 100%;
+        height: 35%;
+    }
+    
+}
+
+
+main{
+    width: 100%;
+    margin-bottom: 15%;
+    #basket{
+        margin: 5%;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        #divh1{
+            width: 60%;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                font-family: $fonte;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 32px;
+                color: #000000;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 12px;
+            }
+
+            h2{
+                font-family: $fonte;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 32px;
+                color: #333333;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+            h3{
+                font-family: $fonte;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 32px;
+                color: #27214D;
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 1px;
+            }
+        }
+
+        #divimg1{
+            width: 20%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+            img{
+                width: 7rem;
+                height: 5rem;
+            }
+
+            
+        }
+
+        #divimg2{
+            width: 20%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+            img{
+                width: 30px;
+                height: 30px;   
+            }
+        }
+    }
+}
+
+
+
+footer{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    #checkout{
+        display: contents;
+    
+
+    
+        #total-price{
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+    
+            h1{
+                font-family: $fonte;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: -0.01em;
+                color: #333333;
+            }
+    
+            h1{
+                font-family: $fonte;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: -0.01em;
+                color: #27214D;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            input{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                border: none;
+                border-radius: 10px;
+                padding: 15px 15px 15px 15px;
+                background: $cor-base;
+                color: $cor-texto;
+            }
+        }
+    }
+}

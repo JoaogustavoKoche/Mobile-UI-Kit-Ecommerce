@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/loading_anim.css">
+    <link rel="stylesheet" href="styles/loading.css">
+
+    <title>Load Page</title>
+</head>
+<body>
+    <!-- início do preloader -->
+    <div id="preloader">
+        <div class="inner">
+        <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
+        <img id="logo" src="imgs/logo.png" alt="Logo">
+        </div>
+    </div>
+
+</body>
+
+    <script>
+        // Timeout de 1.5s e redirecionar para outra pagina
+        setTimeout(function () {
+        window.open('index.html', '_self');
+        }, 2000);
+    </script>
+
+</html>

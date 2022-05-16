@@ -1,0 +1,1154 @@
+body {
+  background: #FFFFFF;
+}
+
+.imgs {
+  background: #FFA451;
+  display: displinline-block;
+  height: 469px;
+  width: 100%;
+  text-align: center;
+}
+
+.imgs #img_fruit {
+  height: 55%;
+  width: 55%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 110px 0px 1px 1px;
+}
+
+.imgs #shadow {
+  width: 50%;
+  height: 12px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#fruta {
+  display: block;
+  height: 469px;
+  width: 100%;
+  text-align: right;
+}
+
+h3 {
+  font-family: 'TT Norms Pr';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: #27214D;
+}
+
+p {
+  margin-top: 5%;
+  margin-left: 5%;
+  font-family: 'TT Norms Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5D577E;
+}
+
+#button {
+  width: 90%;
+  margin: 5%;
+  margin-top: 15%;
+  background-color: #FFA451;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 0px 15px 0px;
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#text {
+  font-family: 'TT Norms Pr';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: #27214D;
+  text-decoration: none;
+}
+
+div input#inputs {
+  background-color: #FFA451;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 0px 15px 0px;
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 90%;
+  margin: 5%;
+  margin-top: 15%;
+  border-radius: 10px;
+  border-style: none;
+  background: #F7F5F5;
+}
+
+body {
+  background: #FFFFFF;
+}
+
+#tokenapprov {
+  display: displinline-block;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+#tokenapprov #img-aprovado {
+  height: 55%;
+  width: 55%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 110px 0px 1px 1px;
+}
+
+#texttaken {
+  font-family: 'TT Norms Pr';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin-top: 5%;
+  color: #27214D;
+}
+
+#textorder {
+  margin-top: 5%;
+  font-family: 'TT Norms Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5D577E;
+  text-align: center;
+}
+
+#button-shopping {
+  width: 90%;
+  margin: 5%;
+  margin-top: 15%;
+  background-color: #FCF6F0;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 0px 15px 0px;
+  color: #FFA451;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#button-track {
+  width: 90%;
+  margin: 5%;
+  margin-top: 15%;
+  background-color: #FFA451;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 0px 15px 0px;
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+header {
+  background: #FFA451;
+  height: 136px;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+header #header-img {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #header-img button {
+  text-align: center;
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+  border: none;
+  border-radius: 15px;
+}
+
+header #header-img button img {
+  width: 8%;
+}
+
+header #header-text {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30%;
+}
+
+header #header-text h1 {
+  text-align: center;
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+main #orderprocessed {
+  margin: 5%;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #orderprocessed #divh1 {
+  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #orderprocessed #divh1 h1 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  color: #000000;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+main #orderprocessed #divh1 h2 {
+  font-family: "Brandon Grotesque";
+  color: #333333;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+main #orderprocessed #divimg1 {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main #orderprocessed #divimg1 img {
+  width: 80px;
+  height: 80px;
+}
+
+main #orderprocessed #divimg2 {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main #orderprocessed #divimg2 img {
+  width: 30px;
+  height: 30px;
+}
+
+main #orderprocessed #divimg3 {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main #orderprocessed #divimg3 img {
+  width: 40px;
+  height: 8px;
+}
+
+main #dot {
+  width: 0px;
+  height: 30px;
+  border: 1px dashed #FFA451;
+  margin-left: 14%;
+}
+
+main #map {
+  width: 100%;
+  height: 35%;
+}
+
+main {
+  width: 100%;
+  margin-bottom: 15%;
+}
+
+main #basket {
+  margin: 5%;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #basket #divh1 {
+  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #basket #divh1 h1 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 12px;
+}
+
+main #basket #divh1 h2 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 32px;
+  color: #333333;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+main #basket #divh1 h3 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #27214D;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1px;
+}
+
+main #basket #divimg1 {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main #basket #divimg1 img {
+  width: 7rem;
+  height: 5rem;
+}
+
+main #basket #divimg2 {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main #basket #divimg2 img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #checkout {
+  display: contents;
+}
+
+footer #checkout #total-price {
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #checkout #total-price h1 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #333333;
+}
+
+footer #checkout #total-price h1 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #27214D;
+}
+
+footer #checkout a {
+  text-decoration: none;
+}
+
+footer #checkout a input {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 15px 15px 15px;
+  background: #FFA451;
+  color: #FFFFFF;
+}
+
+#input-adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: block;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  margin: 5%;
+}
+
+#input-adress h1 {
+  font-family: "Brandon Grotesque";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #27214D;
+}
+
+#input-adress input {
+  width: 90%;
+  margin-top: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F7F5F5;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 15px 15px 15px;
+  color: #C2BDBD;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#input-number {
+  display: block;
+  margin: 5%;
+}
+
+#input-number h1 {
+  font-family: "Brandon Grotesque";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #27214D;
+}
+
+#input-number input {
+  width: 90%;
+  margin-top: 4%;
+  background-color: #F7F5F5;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 15px 15px 15px;
+  color: #C2BDBD;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#input-twobutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#input-twobutton a {
+  text-decoration: none;
+}
+
+#input-twobutton a #teste {
+  width: 80%;
+  color: #FFA451;
+  margin: 5%;
+  background: #FCF6F0;
+  border-style: none;
+  border-radius: 10px;
+  padding: 15px 15px 15px 15px;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+#input-twobutton a #teste input {
+  border-style: none;
+  background: #FCF6F0;
+  color: #FFA451;
+  text-align: center;
+}
+
+#input-twobutton a {
+  text-decoration: none;
+}
+
+#input-twobutton a #teste1 {
+  width: 80%;
+  color: #FFA451;
+  margin: 5%;
+  background: #FCF6F0;
+  border-style: none;
+  border-radius: 10px;
+  padding: 15px 15px 15px 15px;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+#input-twobutton a #teste1 input {
+  border-style: none;
+  background: #FCF6F0;
+  color: #FFA451;
+}
+
+#button-complete {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFA451;
+  width: 100%;
+  height: 70px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#button-complete button {
+  border-radius: 10px;
+  border-style: none;
+  padding: 15px 15px 15px 15px;
+  background: #FFFFFF;
+  color: #FFA451;
+}
+
+#closebutton {
+  background-color: #8080805c;
+  opacity: 0.4;
+  border-radius: 15px 15px 0px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#first {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 10%;
+}
+
+#first #menu-home {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#first a {
+  text-decoration: none;
+}
+
+#first a button {
+  border-style: none;
+  border-radius: 40px;
+  padding: 10px 10px;
+  background: none;
+}
+
+#first a button h1 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  color: #27214D;
+}
+
+#hello-text {
+  margin: 5%;
+  width: 70%;
+  margin-left: 10%;
+}
+
+#hello-text #hello-message {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+  letter-spacing: -0.01em;
+  color: #27214D;
+}
+
+#hello-text #hello-message #bold {
+  font-weight: bold;
+}
+
+#search-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+#search-filter #search {
+  width: 75%;
+  background-color: white;
+  color: lightgray;
+  border: solid 1px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-left: 5%;
+}
+
+#search-filter #search img {
+  vertical-align: middle;
+}
+
+#search-filter #search #input-search {
+  width: 70%;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+#search-filter #filter-button {
+  border-radius: 10px;
+  border-style: none;
+  padding: 15px 10px;
+  background: #F7F7FC;
+}
+
+#textcombo {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #27214D;
+}
+
+#combo {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10%;
+}
+
+#combo #combo1 {
+  background: #FFFFFF;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  -webkit-box-shadow: 9px 7px 5px #323232a1;
+          box-shadow: 9px 7px 5px #323232a1;
+  width: auto;
+  height: auto;
+}
+
+#combo #combo1 a {
+  text-decoration: none;
+  padding: 10px;
+  width: 100%;
+}
+
+#combo #combo1 a #imgfav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#combo #combo1 a #imgfav #imgs {
+  width: 100%;
+  height: 100%;
+}
+
+#combo #combo1 a h1 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  letter-spacing: -0.01em;
+  color: #27214D;
+}
+
+#combo #comboimg {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#combo #comboimg h2 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  letter-spacing: -0.01em;
+  color: #F08626;
+}
+
+#tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+#tabs #intab {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  letter-spacing: -0.01em;
+  color: #27214D;
+}
+
+#tabs #intab span {
+  -webkit-text-decoration: underline #FFA451;
+          text-decoration: underline #FFA451;
+  text-underline-offset: 7px;
+}
+
+#tabs #offtab {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #938DB5;
+}
+
+#header-basket {
+  background: #FFA451;
+  height: 136px;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#header-basket #header-img {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header-basket #header-img button {
+  text-align: center;
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+  border: none;
+  border-radius: 15px;
+}
+
+#header-basket #header-img button img {
+  width: 8%;
+}
+
+#header-basket #header-text {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30%;
+}
+
+#header-basket #header-text h1 {
+  text-align: center;
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+#imgtumb {
+  background: #FFA451;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#imgtumb img {
+  width: 50%;
+  margin: 5%;
+}
+
+#text-h1 {
+  margin: 5%;
+}
+
+#text-h1 h1 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #27214D;
+}
+
+#numb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10%;
+}
+
+#numb #add-remove {
+  display: contents;
+}
+
+#numb #add-remove h1 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  letter-spacing: -0.01em;
+  color: #27214D;
+}
+
+#numb #price-prod h1 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  letter-spacing: -0.01em;
+  color: #27214D;
+}
+
+#contains {
+  margin: 7%;
+}
+
+#contains h1 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #27214D;
+  -webkit-text-decoration: underline #FFA451;
+          text-decoration: underline #FFA451;
+  text-underline-offset: 7px;
+}
+
+#prod-cotains {
+  margin: 3%;
+}
+
+#prod-cotains h3 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #27214D;
+}
+
+#desc-salad {
+  margin-top: 4%;
+  margin-left: 8%;
+}
+
+#desc-salad h4 {
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+#addtobasket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15%;
+  width: 100%;
+}
+
+#addtobasket #favorite {
+  margin-left: 10%;
+}
+
+#addtobasket #buttonbasket {
+  margin-right: 10%;
+}
+
+#addtobasket #buttonbasket a {
+  text-decoration: none;
+}
+
+#addtobasket #buttonbasket a button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 15px 15px 15px;
+  background: #FFA451;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */
